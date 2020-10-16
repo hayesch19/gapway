@@ -15,10 +15,10 @@ class App extends Component {
         <HeaderNav />
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
-          <Route exact path="/" component={ServiceTimes}></Route>
-          <Route exact path="/" component={SermonsPage}></Route>
-          <Route exact path="/" component={SpecialEvents}></Route>
-          <Route exact path="/" component={AboutUs}></Route>
+          <Route exact path="/services" component={ServiceTimes}></Route>
+          <Route exact path="/sermons" component={SermonsPage}></Route>
+          <Route exact path="/events" component={SpecialEvents}></Route>
+          <Route exact path="/about" component={AboutUs}></Route>
         </Switch>
         <FooterBar />
       </Router>
