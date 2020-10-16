@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import GapwayLogo from '../img/GapwayLogo.JPG'
+import Facebook from '../img/facebookicon.png'
+import Youtube from '../img/youtubeicon.png'
 
 const HeaderNav = () => {
   return (
@@ -11,8 +13,8 @@ const HeaderNav = () => {
           <h4 className="contact-item">email@email.com</h4>
         </div>
         <div className="contact-right">
-          <h4 className="contact-item">FB</h4>
-          <h4 className="contact-item">YT</h4>
+          <img className="social-icon" src={Facebook} alt=""/>
+          <img className="social-icon" src={Youtube} alt=""/>
         </div>
       </section>
       <section className="nav-container">
